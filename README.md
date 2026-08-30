@@ -84,5 +84,5 @@ Python, FastAPI, Uvicorn, Pydantic, scikit-learn, pandas
 
 ## Notes
 
-- The 0.70 decision threshold reflects a deliberate business tradeoff (balancing false alarms against missed churners) made and justified during the original model development — see the [churn analysis repo](https://github.com/YOUR-USERNAME/churn-prediction) for the full reasoning.
+- The 0.70 decision threshold reflects a deliberate business tradeoff (balancing false alarms against missed churners) made and justified during the original model development — see the [churn analysis repo](https://github.com/AmiraScripts/churn-prediction-app) for the full reasoning.
 - Input validation currently checks types and required fields via Pydantic; range constraints (e.g., tenure ≥ 0) are a natural next addition.
